@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Type from "./Type";
+import PhotoGallery from "./photoGallery";
 
 function Home() {
   return (
@@ -36,6 +37,9 @@ function Home() {
           </div>
         </Container>
       </Container>
+      <div style={{ padding: "100px", margin: "auto", zIndex: 99 }}>
+        <PhotoGallery />
+      </div>
     </section>
   );
 }
