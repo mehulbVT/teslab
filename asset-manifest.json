@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/teslab/static/css/main.e277bff5.css",
-    "main.js": "/teslab/static/js/main.baffe3dc.js",
+    "main.js": "/teslab/static/js/main.e48895b4.js",
     "static/js/496.aa56fb79.chunk.js": "/teslab/static/js/496.aa56fb79.chunk.js",
     "static/media/research5.png": "/teslab/static/media/research5.1be3bf5eacf75e7b49d6.png",
     "static/media/research6.png": "/teslab/static/media/research6.be3dd0b9d8b921b2f267.png",
@@ -25,11 +25,11 @@
     "static/media/pablo.jpg": "/teslab/static/media/pablo.ade45aa6014679ee54b9.jpg",
     "index.html": "/teslab/index.html",
     "main.e277bff5.css.map": "/teslab/static/css/main.e277bff5.css.map",
-    "main.baffe3dc.js.map": "/teslab/static/js/main.baffe3dc.js.map",
+    "main.e48895b4.js.map": "/teslab/static/js/main.e48895b4.js.map",
     "496.aa56fb79.chunk.js.map": "/teslab/static/js/496.aa56fb79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e277bff5.css",
-    "static/js/main.baffe3dc.js"
+    "static/js/main.e48895b4.js"
   ]
 }
