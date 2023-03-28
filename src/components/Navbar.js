@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 import {
   AiOutlineHome,
+  AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlineUsergroupAdd,
   AiOutlineMail,
@@ -46,9 +47,9 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
+          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
+          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -79,6 +80,19 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUsergroupAdd style={{ marginBottom: "2px" }} /> People
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/teslab/news"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                News
               </Nav.Link>
             </Nav.Item>
 
