@@ -20,10 +20,16 @@ function People1() {
           </Col>
           <Col md={8} className="home-about-description">
             <h2 style={{ fontSize: "1.3em" }}>
-              <span className="accent" style={{ fontSize: "2.6em" }}>
+              <a
+                className="accent"
+                href="linkedin.com/in/maaz-gardezi-5838a914/"
+                style={{ fontSize: "2.6em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
-                Maaz Gardezi{" "}
-              </span>{" "}
+                Maaz Gardezi
+              </a>{" "}
               (he/him)
             </h2>
             <p className="home-about-body">

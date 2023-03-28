@@ -19,7 +19,7 @@ function People3() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="*"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +63,7 @@ function People3() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="https://www.linkedin.com/in/anne-patrick-72452811b/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -100,7 +100,7 @@ function People3() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="https://www.linkedin.com/in/ayorinde-ogunyiola-229a7231/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -140,7 +140,7 @@ function People3() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="*"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"

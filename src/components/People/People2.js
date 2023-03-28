@@ -20,7 +20,7 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="*"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -65,7 +65,7 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="*"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +102,7 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="https://www.linkedin.com/in/pablo-carcamo-corral-00273a21/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -140,7 +140,7 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="https://www.linkedin.com/in/bhavna-joshi-5a41b71b/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
@@ -179,7 +179,7 @@ function People2() {
             <h2 style={{ fontSize: "1em", textAlign: "left" }}>
               <a
                 className="bolditalicaccent"
-                href="https://www.linkedin.com/in/shreyamitra-eval/"
+                href="https://www.linkedin.com/in/janjakubmichalak/"
                 style={{ position: "relative", fontSize: "2em" }}
                 target="_blank"
                 rel="noreferrer"
