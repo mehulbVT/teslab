@@ -38,7 +38,7 @@ function Research() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            // style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={drone} alt="about" className="img-fluid team-pic" />
