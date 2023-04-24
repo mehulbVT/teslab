@@ -1,10 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 function Opportunities() {
   return (
     <section>
-      <Container fluid className="home-about-section" id="about">
+      <Container
+        fluid
+        className="home-about-section"
+        id="about"
+        style={{ height: "100vh" }}
+      >
         <Row>
           <h1
             className="people-header"
@@ -43,7 +48,7 @@ function Opportunities() {
             </a>{" "}
           </p>
         </Container>
-        <Row>
+        {/* <Row>
           <h1
             className="people-header"
             style={{
@@ -133,7 +138,7 @@ function Opportunities() {
               </Row>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </Container>
     </section>
   );

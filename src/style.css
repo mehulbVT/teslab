@@ -14,6 +14,9 @@ html {
   --imp-text-color-dark: rgb(236, 134, 50);
   --imp-text-color-light: rgb(247, 208, 70);
 
+  /* --imp-text-color-dark:   rgb(102, 115, 247);
+  --imp-text-color-light:   rgb(112, 168, 245); */
+
   /* --imp-text-color-dark: linear-gradient(
     to bottom left,
     var(--imp-text-color-dark),
