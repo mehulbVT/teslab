@@ -7,7 +7,7 @@
 5. git push origin main<br />
 
 # Steps to Start the application on local system: <br />
-1. npm install <br />
+1. npm install (only needed first time or when installing new dependencies)<br />
 2. npm start <br />
 runs on port number 3000
 
