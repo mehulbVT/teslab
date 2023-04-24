@@ -17,8 +17,8 @@ runs on port number 3000
 2. npm run deploy<br />
 
 
-# change website
-1. Social Media: copypaste li tag e.g. line 38-47
-   Footer.js
-   Contact.js
+# change website <br />
+1. Social Media: copypaste li tag e.g. line 38-47 <br />
+   Footer.js <br />
+   Contact.js <br />
 
