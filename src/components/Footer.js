@@ -32,16 +32,6 @@ function Footer() {
                 <AiFillMail />
               </a>
             </li>
-            {/* <li className="s-icons">
-              <a
-                href="https://github.com/"
-                className="icon-colour"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li> */}
             <li className="s-icons">
               <a
                 href="https://www.linkedin.com/in/maaz-gardezi-5838a914/"
@@ -72,16 +62,6 @@ function Footer() {
                 <FaGoogle />
               </a>
             </li>
-            {/* <li className="s-icons">
-              <a
-                href="https://www.instagram.com//"
-                className="icon-colour"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li> */}
             <li className="s-icons">
               <a
                 href="https://twitter.com/maazgardezi?lang=en"

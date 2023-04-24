@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
+import sty from "../style.css";
 
 import { Link } from "react-router-dom";
 
@@ -47,9 +48,9 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
-          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
-          <span style={{ backgroundColor: "rgb(112, 168, 245)" }}></span>
+          <span style={{ backgroundColor: "--imp-text-color-light" }}></span>
+          <span style={{ backgroundColor: "--imp-text-color-light" }}></span>
+          <span style={{ backgroundColor: "--imp-text-color-light" }}></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">

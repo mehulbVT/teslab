@@ -5,14 +5,14 @@ html {
     rgb(246, 246, 246)
   );
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgb(255, 255, 255),
-    rgb(246, 246, 246)
-  );
-
   --imp-text-color-dark: rgb(236, 134, 50);
   --imp-text-color-light: rgb(247, 208, 70);
+
+  --imp-color-gradient: linear-gradient(
+    to bottom left,
+    rgb(236, 134, 50),
+    rgb(247, 208, 70)
+  );
 
   /* --imp-text-color-dark:   rgb(102, 115, 247);
   --imp-text-color-light:   rgb(112, 168, 245); */
@@ -113,11 +113,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: linear-gradient(
-    to bottom left,
-    var(--imp-text-color-dark),
-    var(--imp-text-color-light)
-  ) !important;
+  background-image: var(--imp-color-gradient) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
