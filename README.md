@@ -1,6 +1,5 @@
 
 # Steps to setup the website
-
 1. git init<br />
 2. git remote add origin (Github repo URL)<br />
 3. git add .<br />
@@ -8,13 +7,11 @@
 5. git push origin main<br />
 
 # Steps to Start the application on local system: <br />
-
 1. npm install <br />
 2. npm start <br />
 runs on port number 3000
 
 # Steps to Deploy the application on the github pages:<br />
-<br />
 1. npm run build<br />
 2. npm run deploy<br />
 
