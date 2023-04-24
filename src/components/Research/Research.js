@@ -51,7 +51,10 @@ function Research() {
           style={{
             fontSize: "2.6em",
             textAlign: "center",
-            padding: "25px",
+            paddingTop: "25px",
+            paddingBottom: "25px",
+            paddingLeft: "150px",
+            paddingRight: "150px",
             marginTop: "50px",
           }}
         >
@@ -94,7 +97,7 @@ function Research() {
             <img src={research1} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
+        {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
           <Col className="about-card">
             <Row>
               <b className="bolditalicaccent" style={{ fontSize: "1.2em" }}>
@@ -248,7 +251,7 @@ function Research() {
               </ol>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
 
       <Row>
@@ -257,7 +260,10 @@ function Research() {
           style={{
             fontSize: "2.6em",
             textAlign: "center",
-            padding: "25px",
+            paddingTop: "25px",
+            paddingBottom: "25px",
+            paddingLeft: "150px",
+            paddingRight: "150px",
             marginTop: "50px",
           }}
         >
@@ -297,7 +303,7 @@ function Research() {
             <img src={research5} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
+        {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
           <Col className="about-card">
             <Row>
               <b className="bolditalicaccent" style={{ fontSize: "1.2em" }}>
@@ -375,7 +381,7 @@ function Research() {
               </ol>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
 
       <Row>
@@ -384,7 +390,10 @@ function Research() {
           style={{
             fontSize: "2.6em",
             textAlign: "center",
-            padding: "25px",
+            paddingTop: "25px",
+            paddingBottom: "25px",
+            paddingLeft: "150px",
+            paddingRight: "150px",
             marginTop: "50px",
           }}
         >
@@ -427,7 +436,7 @@ function Research() {
             <img src={research6} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
+        {/* <Row style={{ justifyContent: "left", marginLeft: "10px" }}>
           <Col className="about-card">
             <Row>
               <b className="bolditalicaccent" style={{ fontSize: "1.2em" }}>
@@ -500,7 +509,7 @@ function Research() {
               </ol>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

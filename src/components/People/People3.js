@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+import damilola from "../../Assets/Damilola.jpg";
 import megan from "../../Assets/Megan.jpg";
 import anne from "../../Assets/Anne.JPG";
 import ayorinde from "../../Assets/Ayorinde.jpg";
@@ -10,6 +11,40 @@ function People3() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        <Row>
+          <Col
+            md={8}
+            className="home-about-description"
+            style={{ textAlign: "left" }}
+          >
+            <h2 style={{ fontSize: "1em", textAlign: "left" }}>
+              <a
+                className="bolditalicaccent"
+                href="*"
+                style={{ position: "relative", fontSize: "2em" }}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Damilola Tobiloba Adereti
+              </a>{" "}
+              (he/him)
+            </h2>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              PhD Student in Sociology at South Dakota State University
+            </p>
+            <p className="home-about-body" style={{ padding: "0px" }}>
+              Dami is a PhD Student in Sociology at South Dakota State
+              University. He runs with a passion for sustainable development
+              with research interests in extension, food security, children and
+              youth in agriculture, gender, and rural communities.
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <img src={damilola} className="img-fluid team-pic" alt="dami pic" />
+          </Col>
+        </Row>
+
         <Row>
           <Col
             md={8}
@@ -54,6 +89,7 @@ function People3() {
             <img src={megan} className="img-fluid team-pic" alt="megan pic" />
           </Col>
         </Row>
+
         <Row>
           <Col
             md={8}

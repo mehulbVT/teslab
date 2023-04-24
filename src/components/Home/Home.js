@@ -7,7 +7,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        {/* <Particle /> */}
         <Row>
           <h1
             className="people-header"
@@ -35,11 +34,11 @@ function Home() {
               healthcare in the U.S., and in South Asia.
             </p>
           </div>
+          <div style={{ padding: "50px", margin: "auto", zIndex: 2 }}>
+            <PhotoGallery />
+          </div>
         </Container>
       </Container>
-      <div style={{ padding: "100px", margin: "auto", zIndex: 99 }}>
-        <PhotoGallery />
-      </div>
     </section>
   );
 }

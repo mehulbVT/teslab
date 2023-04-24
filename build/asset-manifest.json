@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/teslab/static/css/main.e277bff5.css",
-    "main.js": "/teslab/static/js/main.3849f525.js",
+    "main.css": "/teslab/static/css/main.71b10341.css",
+    "main.js": "/teslab/static/js/main.0b238854.js",
     "static/js/496.aa56fb79.chunk.js": "/teslab/static/js/496.aa56fb79.chunk.js",
     "static/media/research5.png": "/teslab/static/media/research5.1be3bf5eacf75e7b49d6.png",
     "static/media/research6.png": "/teslab/static/media/research6.be3dd0b9d8b921b2f267.png",
@@ -24,12 +24,12 @@
     "static/media/Megan.jpg": "/teslab/static/media/Megan.beb3cad44af7918b7bb6.jpg",
     "static/media/pablo.jpg": "/teslab/static/media/pablo.ade45aa6014679ee54b9.jpg",
     "index.html": "/teslab/index.html",
-    "main.e277bff5.css.map": "/teslab/static/css/main.e277bff5.css.map",
-    "main.3849f525.js.map": "/teslab/static/js/main.3849f525.js.map",
+    "main.71b10341.css.map": "/teslab/static/css/main.71b10341.css.map",
+    "main.0b238854.js.map": "/teslab/static/js/main.0b238854.js.map",
     "496.aa56fb79.chunk.js.map": "/teslab/static/js/496.aa56fb79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e277bff5.css",
-    "static/js/main.3849f525.js"
+    "static/css/main.71b10341.css",
+    "static/js/main.0b238854.js"
   ]
 }

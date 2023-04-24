@@ -11,21 +11,22 @@ html {
     rgb(246, 246, 246)
   );
 
-  --imp-text-color: rgb(112, 168, 245);
+  --imp-text-color-dark: rgb(236, 134, 50);
+  --imp-text-color-light: rgb(247, 208, 70);
 
-  /* --imp-text-color: linear-gradient(
+  /* --imp-text-color-dark: linear-gradient(
     to bottom left,
-    rgb(102, 115, 247),
-    rgb(112, 168, 245)
+    var(--imp-text-color-dark),
+    var(--imp-text-color-light)
   ); */
 }
 
 .accent {
-  color: var(--imp-text-color) !important;
+  color: var(--imp-text-color-dark) !important;
 }
 
 .bolditalicaccent {
-  color: var(--imp-text-color) !important;
+  color: var(--imp-text-color-dark) !important;
   font-style: italic;
   font-weight: bold;
 }
@@ -69,18 +70,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgb(102, 115, 247);
+  background: var(--imp-text-color-light);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--imp-text-color);
+  background: var(--imp-text-color-dark);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--imp-text-color);
+  background: var(--imp-text-color-dark);
   border-radius: 12px;
 }
 
@@ -111,8 +112,8 @@ button:focus {
   display: block !important;
   background-color: linear-gradient(
     to bottom left,
-    rgb(102, 115, 247),
-    rgb(112, 168, 245)
+    var(--imp-text-color-dark),
+    var(--imp-text-color-light)
   ) !important;
   height: 4px !important;
   width: 27px !important;
@@ -212,8 +213,8 @@ button:focus {
   border-radius: 16px;
   background: linear-gradient(
     to bottom left,
-    rgb(102, 115, 247),
-    rgb(112, 168, 245)
+    var(--imp-text-color-dark),
+    var(--imp-text-color-light)
   );
   bottom: 1px;
   left: 0;
@@ -228,55 +229,13 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
-
 .home-header {
   padding-top: 80px !important;
 }
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -300,17 +259,17 @@ button:focus {
 }
 
 .main-name {
-  color: var(--imp-text-color);
+  color: var(--imp-text-color-dark);
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: var(--imp-text-color) !important;
+  color: var(--imp-text-color-dark) !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: var(--imp-text-color) !important;
+  color: var(--imp-text-color-dark) !important;
 }
 
 @media (max-width: 767px) {
@@ -407,7 +366,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgb(112, 168, 245);
+  background: var(--imp-text-color-light);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -415,13 +374,11 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px rgb(112, 168, 245);
+  box-shadow: 0 0 15px var(--imp-text-color-light);
 }
 
 .home-social-icons:hover {
-  color: rgb(112, 168, 245);
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: var(--imp-text-color-light);
 }
 
 .s-icons {
@@ -431,7 +388,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: rgb(112, 168, 245) !important;
+  color: var(--imp-text-color-light) !important;
 }
 
 /* --------- */
@@ -489,12 +446,12 @@ button:focus {
 .btn-primary {
   color: #fff !important;
 
-  background-color: rgb(112, 168, 245) !important;
+  background-color: var(--imp-text-color-light) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: rgb(102, 115, 247) !important;
+  background-color: var(--imp-text-color-dark) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -518,60 +475,6 @@ button:focus {
   background-image: var(--section-background-color) !important;
   background-repeat: repeat-y !important;
   color: rgb(81, 81, 81) !important;
-}
-
-.exp-content {
-  font-size: 1.5em !important;
-  margin: 15px !important;
-  padding: 40px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: middle !important;
-
-  text-align: justify !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
-}
-
-.tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
-}
-
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
-
-.tech-icons:hover,
-.exp-content:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
-}
-
-.quote-card-view {
-  border: none !important;
-  color: black !important;
-  background-color: transparent !important;
 }
 
 .about-card {
@@ -598,7 +501,7 @@ button:focus {
   display: flex;
   align-items: left;
   width: 180px;
-  color: rgb(112, 168, 245);
+  color: var(--imp-text-color-light);
 }
 
 .pin-icon {
@@ -615,7 +518,7 @@ button:focus {
 .people-header {
   background-image: linear-gradient(
     to bottom left,
-    rgb(102, 115, 247),
-    rgb(112, 168, 245)
+    var(--imp-text-color-dark),
+    var(--imp-text-color-light)
   );
 }
