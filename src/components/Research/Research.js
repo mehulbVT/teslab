@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from "./AboutCard";
 
-import laptopImg from "../../Assets/about.png";
+import drone from "../../Assets/drone.jpg";
 
 import research1 from "../../Assets/research1.jpg";
 import research5 from "../../Assets/research5.png";
@@ -41,7 +41,7 @@ function Research() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={drone} alt="about" className="img-fluid team-pic" />
           </Col>
         </Row>
       </Container>
