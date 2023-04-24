@@ -1,7 +1,8 @@
-Steps to Start: <br />
+Steps to Start on local system: <br />
 
 1. npm install <br />
 2. npm start <br />
+# runs on port number 3000
 
 Steps to Deploy:<br />
 <br />
