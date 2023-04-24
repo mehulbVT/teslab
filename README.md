@@ -19,9 +19,10 @@ runs on port number 3000
 
 # Change website <br />
 
-1. Social Media: copypaste <li> tag e.g. line 38-47 <br />
-   Footer.js <br />
-   Contact.js <br />
+1. Social Media: copypaste 'li' tag e.g. line 38-47 <br />
+   make changes in these 2 files
+   1. Footer.js
+   2. Contact.js
    
 2. People page <br />
    people1.js - Faculty page <br /><br />
@@ -38,11 +39,25 @@ runs on port number 3000
    5. change the name in the <img src={Importname} tag based on your import e.g. line 44
                                   
 3. Research Page <br />
-   Adding new project: <br/>
+   Adding new project: 
    1. add new project photo to the src/Assets folder.
    2. add import statement like e.g. line 7 of research.js and change the name
    3. copypaste <row> tag for project heading whereever you want to add e.g. line 48 - 66<br />
    4. copypaste <Container> tag for project description and image whereever you want to add e.g. line 68 - 100<br />
-   4. change all the project details
-   5. change the name in the <img src={Importprojectname} tag based on your import e.g. line 97
+   5. change all the project details
+   6. change the name in the <img src={Importprojectname} tag based on your import e.g. line 97
 
+4. News Section - News.js file 
+   add a new news:
+   1. copy paste the 'li' tag within the 'ul' tag based on the priority or sequence of the news
+   2. make the necessary changes.
+   3. <a> tag is used for hyperlink to the news URL
+   4. change the href to desired URL for hyperlink
+   
+5. Add image to the the PhotoGallery on Homepage: - photoGallery.js 
+   1. add new photo to the src/Assets folder.
+   2. copypaste the import statement like e.g. line 6 photoGallery.js
+   3. change the name of the new image
+   4. copypaste line in the images const variable e.g. line 15-20 including curly brackets, src, width height, caption, commas
+   5. change the src name to the importName
+      
