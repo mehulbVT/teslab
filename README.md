@@ -1,8 +1,7 @@
-Steps to Start the application on local system: <br />
+Steps to Start: <br />
 
 1. npm install <br />
 2. npm start <br />
-   #port number 3000
 
 Steps to Deploy:<br />
 <br />
